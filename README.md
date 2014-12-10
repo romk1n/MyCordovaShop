@@ -1,7 +1,7 @@
 MyCordovaShop
 =============
 
-Example code for PayPal Mobile SDK Cordova/Phonegap Plugin https://github.com/paypal/PayPal-Cordova-Plugin
+Example code for PayPal [Mobile SDK Cordova/Phonegap Plugin](https://github.com/paypal/PayPal-Cordova-Plugin)
 
 * Make sure you have cordova installed if you have node just run `sudo npm install -g cordova` else read [here](http://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html)
 * For security reasons, by default the environment is NoNetwork.
