@@ -9,7 +9,7 @@ Usage
 -----
 
 ```bash
-$ git clone git@github.com:romk1n/MyCordovaShop.git
+$ git clone https://github.com/romk1n/MyCordovaShop.git
 # for ios
 $ cordova run ios
 # for android
