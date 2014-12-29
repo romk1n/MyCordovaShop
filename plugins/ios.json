@@ -19,13 +19,55 @@
                             "count": 1
                         }
                     ],
+                    "CFNetwork.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "CoreLocation.framework": [
+                        {
+                            "xml": "true",
+                            "count": 1
+                        }
+                    ],
+                    "CoreMedia.framework": [
+                        {
+                            "xml": "true",
+                            "count": 1
+                        }
+                    ],
+                    "MessageUI.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "OpenGLES.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "MobileCoreServices.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "Security.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
                     "SystemConfiguration.framework": [
                         {
                             "xml": "false",
                             "count": 1
                         }
                     ],
-                    "MessageUI.framework": [
+                    "QuartzCore.framework": [
                         {
                             "xml": "false",
                             "count": 1
@@ -37,9 +79,9 @@
                             "count": 1
                         }
                     ],
-                    "CoreLocation.framework": [
+                    "libPayPalMobile.a": [
                         {
-                            "xml": "true",
+                            "xml": "false",
                             "count": 1
                         }
                     ]

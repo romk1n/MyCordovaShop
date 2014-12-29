@@ -7,6 +7,12 @@ The intention for this plugin is to make it community driven.
 We have created the initial version of the plugin to show how easy it is to use our native SDKs (iOS and Android) on the Cordova/Phonegap platforms.
 As features are added to the mSDK, we will be happy to review and merge any Pull Requests that add these features to the plugin.
 
+
+Updating from ealier versions < 3.0.0
+-----------------------------
+Please remove your local copies of the native sdks, the Plugin now includes sdks distributions as part of the source code to make integration and version parity easier to maintain.
+
+
 Installation
 ------------
 
@@ -14,9 +20,7 @@ The PayPal SDK Cordova/Phonegap Plugin adds support for the PayPal SDK on iOS an
 
 
 1. Follow the official [Cordova](https://cordova.apache.org) documentation to install command line tools or [Phonegap](http://phonegap.com/install/).
-2. Download the [PayPal iOS SDK](https://github.com/paypal/PayPal-iOS-SDK).
-3. Download the [PayPal Android SDK](https://github.com/paypal/PayPal-Android-SDK).
-4. Create project, add plugin and platforms:
+2. Create project, add plugin and platforms:
 ```bash
    $ cordova create MyShop com.mycompany.myshop "MyShop"
    $ cd MyShop
@@ -26,9 +30,8 @@ The PayPal SDK Cordova/Phonegap Plugin adds support for the PayPal SDK on iOS an
    # optional for console.log etc
    $ cordova plugin add org.apache.cordova.console
 ``` 
-5. For iOS, open the Xcode project in the `platforms/ios` folder and add the `PayPalMobile` folder from step 2. Make sure to read https://github.com/paypal/PayPal-iOS-SDK#add-the-sdk-to-your-project in case of linking errors
-6. For Android, copy the `libs` folder from step 3 to the `libs` folder in `MyShop/platforms/android`.
-7. Run `cordova build` to build the projects for all of the platforms.
+3. Follow Your app integration section below.
+4. Run `cordova build` to build the projects for all of the platforms.
 
 
 Your app integration
@@ -37,12 +40,16 @@ The PayPal SDK Cordova/Phonegap Plugin adds 2 JavaScript files to your project.
 
 1. `cdv-plugin-paypal-mobile-sdk.js`: a wrapper around the native SDK. The `PayPalMobile` object is immediately available to use in your `.js` files.
 2. `paypal-mobile-js-helper.js`: a helper file which defines the `PayPalPayment`, `PayPalPaymentDetails` and `PayPalConfiguration` classes for use with `PayPalMobile`.
-3. You must add `<script type="text/javascript" src="js/paypal-mobile-js-helper.js"></script>` to your `MyShop/www/index.html` file, after the `cordova.js` import.
+3. You must add 
+```javascript
+   <script type="text/javascript" src="js/paypal-mobile-js-helper.js"></script>
+```
+   to your `MyShop/www/index.html` file, _after_ the `cordova.js` import.
 
 
 Documentation
 -------------
-- All calls to PayPalMobile are asynchronous
+- All calls to PayPalMobile are asynchronous.
 - See `cdv-plugin-paypal-mobile-sdk.js` and `paypal-mobile-js-helper.js` for details and functionality available.
 - For complete documentation regarding the PayPal SDK Cordova Plugin, please refer to the documentation for the underlying [PayPal Mobile SDK](https://developer.paypal.com/webapps/developer/docs/integration/mobile/mobile-sdk-overview/).
 - Not all features available in native sdks have been implemented.
@@ -50,6 +57,8 @@ Documentation
 
 Basic Example of the app
 ------------------------
+
+1. A complete example code can be checked from here https://github.com/romk1n/MyCordovaShop
 
 1. In `MyShop/www/index.html` add the following to lines after `<p class="event received">Device is Ready</p>`:
    ```javascript

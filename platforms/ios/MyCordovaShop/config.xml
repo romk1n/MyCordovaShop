@@ -19,6 +19,12 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
+    <feature name="PayPalMobile">
+        <param name="ios-package" onload="true" value="PayPalMobileCordovaPlugin" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+    </feature>
     <name>MyCordovaShop</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -28,10 +34,4 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <feature name="PayPalMobile">
-        <param name="ios-package" onload="true" value="PayPalMobileCordovaPlugin" />
-    </feature>
-    <feature name="Console">
-        <param name="ios-package" value="CDVLogger" />
-    </feature>
 </widget>
