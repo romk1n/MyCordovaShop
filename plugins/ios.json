@@ -84,6 +84,25 @@
                             "xml": "false",
                             "count": 1
                         }
+                    ],
+                    "System.framework": [],
+                    "CoreGraphics.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "UIKit.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "CoreVideo.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -91,11 +110,11 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"PayPalMobile\"><param name=\"ios-package\" onload=\"true\" value=\"PayPalMobileCordovaPlugin\" /></feature>",
+                            "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
+                            "xml": "<feature name=\"PayPalMobile\"><param name=\"ios-package\" onload=\"true\" value=\"PayPalMobileCordovaPlugin\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -104,10 +123,10 @@
         }
     },
     "installed_plugins": {
-        "com.paypal.cordova.mobilesdk": {
+        "org.apache.cordova.console": {
             "PACKAGE_NAME": "com.mycompany.cordova.myshop"
         },
-        "org.apache.cordova.console": {
+        "com.paypal.cordova.mobilesdk": {
             "PACKAGE_NAME": "com.mycompany.cordova.myshop"
         }
     },

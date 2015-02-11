@@ -1,0 +1,18 @@
+2014-12-31 12:46:56.860 MyCordovaShop[9899:10004852] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/rpunskyy/Library/Developer/CoreSimulator/Devices/2FBFA8C2-828A-4050-9E62-691645909828/data/Containers/Data/Application/A2F2DD5B-E903-4FFF-8511-2292107F1516/Library/Cookies/Cookies.binarycookies
+2014-12-31 12:46:56.958 MyCordovaShop[9899:10004852] Apache Cordova native platform version 3.6.3 is starting.
+2014-12-31 12:46:56.959 MyCordovaShop[9899:10004852] Multi-tasking -> Device: YES, App: YES
+2014-12-31 12:46:56.975 MyCordovaShop[9899:10004852] Unlimited access to network resources
+2014-12-31 12:46:56.979 MyCordovaShop[9899:10004852] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-12-31 12:46:57.445 MyCordovaShop[9899:10004852] [CDVTimer][paypalmobile] 0.045955ms
+2014-12-31 12:46:57.445 MyCordovaShop[9899:10004852] [CDVTimer][TotalPluginStartup] 0.205040ms
+2014-12-31 12:46:57.549 MyCordovaShop[9899:10004852] Resetting plugins due to page load.
+2014-12-31 12:46:57.652 MyCordovaShop[9899:10004852] Finished load of: file:///Users/rpunskyy/Library/Developer/CoreSimulator/Devices/2FBFA8C2-828A-4050-9E62-691645909828/data/Containers/Bundle/Application/AC90AF4C-7AE7-474A-BF93-A5FAEFFD75F2/MyCordovaShop.app/www/index.html
+2014-12-31 12:46:57.679 MyCordovaShop[9899:10004852] Received Event: deviceready
+2014-12-31 12:46:59.754 MyCordovaShop[9899:10004852] THREAD WARNING: ['PayPalMobile'] took '11.802979' ms. Plugin should use a background thread.
+2014-12-31 12:47:38.729 MyCordovaShop[9899:10004852] payment cancelled

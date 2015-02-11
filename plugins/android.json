@@ -102,10 +102,10 @@
         }
     },
     "installed_plugins": {
-        "com.paypal.cordova.mobilesdk": {
+        "org.apache.cordova.console": {
             "PACKAGE_NAME": "com.mycompany.cordova.myshop"
         },
-        "org.apache.cordova.console": {
+        "com.paypal.cordova.mobilesdk": {
             "PACKAGE_NAME": "com.mycompany.cordova.myshop"
         }
     },
