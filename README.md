@@ -12,6 +12,10 @@ Usage
 
 ```bash
 $ git clone https://github.com/romk1n/MyCordovaShop.git
+$ cordova plugin add org.apache.cordova.console
+$ cordova plugin add com.paypal.cordova.mobilesdk
+$ cordova platform add ios
+$ cordova platform add android   
 # for ios
 $ cordova run ios
 # for android
